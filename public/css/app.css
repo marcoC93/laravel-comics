@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #0282f9;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  color: inherit;
+}
+
+.header-bottom .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
