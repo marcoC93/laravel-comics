@@ -1,13 +1,16 @@
 <header>
     <div class="header-top">
         <div class="container">
-            <nav>
-                <ul>
-                    <li> dc power visa</li>
-                    <li> additional dc sites</li>
-                </ul>
+            <div class="">
+                <nav>
+                    <ul>
+                        <li> dc power visa</li>
+                        <li> additional dc sites</li>
+                    </ul>
 
-            </nav>
+                </nav>    
+            </div>
+
         </div>
     </div>
     <div class="header-bottom">
@@ -71,8 +74,8 @@
                     </ul>
                 </div>
                 <div class="search-bar">
-
-                    <input type="text" name="" value="">
+                    <input type="text" name="" value="" placeholder="Search">
+                    <i class="fas fa-search"></i>
                 </div>
             </div>
         </div>

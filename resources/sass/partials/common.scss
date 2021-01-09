@@ -9,8 +9,13 @@ ul {
 a {
     text-decoration: none;
 }
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 .container {
     width: 80%;
     margin: auto;
-
+}
+.col-md-3 {
+    padding: 10px;
 }

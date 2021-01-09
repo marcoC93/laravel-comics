@@ -1,0 +1,38 @@
+footer {
+    #footer-top{
+        background-color: gray;
+        &:after {
+            display: table;
+            content: '' ;
+            clear: both;
+        }
+        .footer-list{
+            float: left;
+            ul {
+
+                li {
+                    display: list-item;
+                    a {
+                        font-size: 0.8em;
+                    }
+
+
+
+                }
+            }
+        }
+        #copyright {
+            display: block;
+        }
+    }
+    #footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        #footer-social {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
