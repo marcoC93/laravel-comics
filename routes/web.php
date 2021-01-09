@@ -19,4 +19,12 @@ Route::get('/', function () {
         ];
 
     return view('welcome', $data);
+})->name('homepage');
+
+Route::get('/', function () {
+    $data = [
+        'comics' => config('comics')
+        ];
+
+    return view('welcome', $data);
 });

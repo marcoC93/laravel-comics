@@ -105,10 +105,22 @@
             <div id="footer-social">
                 <h2 class="text-uppercase">follow us</h2>
                 <ul>
-                    <li>
+                    <li class="facebook">
                         <a href="#">
-                            <img src="{{asset('./img/footer-facebook.png')}}" alt="">
+
                         </a>
+                    </li>
+                    <li class="twitter">
+                        <a href="#"></a>
+                    </li>
+                    <li class="youtube">
+                        <a href="#"></a>
+                    </li>
+                    <li class="pinterest">
+                        <a href="#"></a>
+                     </li>
+                    <li class="periscope">
+                        <a href="#"></a>
                     </li>
                 </ul>
             </div>

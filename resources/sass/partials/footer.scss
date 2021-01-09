@@ -1,6 +1,6 @@
 footer {
     #footer-top{
-        background-color: gray;
+        background-image: url('/img/footer-bg.jpg');
         &:after {
             display: table;
             content: '' ;
@@ -33,6 +33,18 @@ footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
+        }
+        @each $icon in $footer_socials {
+        li.#{$icon} {
+            background-image: url('/img/footer-#{$icon}.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        }
+        a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
         }
     }
 }
