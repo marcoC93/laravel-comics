@@ -21,10 +21,15 @@ Route::get('/', function () {
     return view('welcome', $data);
 })->name('homepage');
 
-Route::get('/', function () {
-    $data = [
-        'comics' => config('comics')
-        ];
+Route::get('/comic/{id}', function ($id) {
+    $comics = config('comics');
+    if (array_key_exists($id, $comics)) {
+        $fumetto = $comics[$id];
+        $data = [
+            'comic' => $fumetto
+            ];
+        return view('single', $data);
+    }
+    abort(404);
 
-    return view('welcome', $data);
-});
+})->name('comic-page');
