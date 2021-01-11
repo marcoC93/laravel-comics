@@ -4,11 +4,11 @@
     <div class="container">
         <div class="row">
             @foreach ($comics as $key => $comic)
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="card">
                         <a href="{{route('comic-page', ['id' => $key])}}">
-                        <h2>{{$comic['title']}}</h2>
-                        <img src="{{$comic['thumb']}}" alt="">
+                            <img src="{{$comic['thumb']}}" alt="">
+                            <span>{{$comic['title']}}</span>
                         </a>
                     </div>
                 </div>

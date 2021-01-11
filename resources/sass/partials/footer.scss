@@ -12,8 +12,12 @@ footer {
 
                 li {
                     display: list-item;
+                    h3 {
+                        color: white ;
+                    }
                     a {
                         font-size: 0.8em;
+                        color:  white;
                     }
 
 
@@ -29,22 +33,35 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background: #303030;
         #footer-social {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
         }
         @each $icon in $footer_socials {
         li.#{$icon} {
             background-image: url('/img/footer-#{$icon}.png');
             background-repeat: no-repeat;
             background-size: contain;
+            margin: 10px;
         }
         }
         a {
             display: inline-block;
             width: 35px;
             height: 35px;
+
         }
+        h2 {
+            color: $primary-color ;
+            font-size: bolder ;
+        }
+        button {
+            background: transparent ;
+            border:  1px solid $primary-color ;
+        }
+
     }
 }

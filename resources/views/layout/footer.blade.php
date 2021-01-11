@@ -1,6 +1,6 @@
 <footer>
-    <div class="container">
-        <div id="footer-top">
+    <div id="footer-top">
+        <div class="container">
             <div class="footer-list">
                 <ul>
                     <li>
@@ -101,30 +101,31 @@
             <a href="#">Cookie Settings</a>
         </div>
         <div id="footer-bottom">
-            <button type="button" name="button"> sign up now</button>
-            <div id="footer-social">
-                <h2 class="text-uppercase">follow us</h2>
-                <ul>
-                    <li class="facebook">
-                        <a href="#">
+            <div class="container">
+                <button type="button" name="button"> sign up now</button>
+                <div id="footer-social">
+                    <h2 class="text-uppercase">follow us</h2>
+                    <ul>
+                        <li class="facebook">
+                            <a href="#">
 
-                        </a>
-                    </li>
-                    <li class="twitter">
-                        <a href="#"></a>
-                    </li>
-                    <li class="youtube">
-                        <a href="#"></a>
-                    </li>
-                    <li class="pinterest">
-                        <a href="#"></a>
-                     </li>
-                    <li class="periscope">
-                        <a href="#"></a>
-                    </li>
-                </ul>
+                            </a>
+                        </li>
+                        <li class="twitter">
+                            <a href="#"></a>
+                        </li>
+                        <li class="youtube">
+                            <a href="#"></a>
+                        </li>
+                        <li class="pinterest">
+                            <a href="#"></a>
+                         </li>
+                        <li class="periscope">
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
         </div>
     </div>
 </footer>

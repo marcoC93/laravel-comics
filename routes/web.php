@@ -23,13 +23,15 @@ Route::get('/', function () {
 
 Route::get('/comic/{id}', function ($id) {
     $comics = config('comics');
-    if (array_key_exists($id, $comics)) {
+
+    if(array_key_exists($id, $comics)) {
         $fumetto = $comics[$id];
         $data = [
             'comic' => $fumetto
             ];
         return view('single', $data);
     }
+    
     abort(404);
 
 })->name('comic-page');
